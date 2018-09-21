@@ -3,6 +3,5 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll
-  Random.new_seed
-  
+  rand 6
 end
