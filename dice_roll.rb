@@ -1,3 +1,3 @@
-def roll
-  1 + rand(6)
+def roll(array)
+  rand(1..6)
 end
