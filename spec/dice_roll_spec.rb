@@ -2,19 +2,19 @@ require_relative '../dice_roll'
 
 describe "#roll" do
 
-  it "should return an Integer" do
+  do
     expect(roll).to be_a(Integer)
   end
 
-  it "should return a number greater than 0" do
+   do
     expect(roll).to be > 0
   end
 
-  it "should return a number less than 7" do
+  do
     expect(roll).to be < 7
   end
 
-  it "should return a random value" do
+  do
     rolls = []
     100.times do
       rolls << roll
