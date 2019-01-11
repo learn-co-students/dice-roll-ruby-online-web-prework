@@ -3,5 +3,5 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll(name=rand(1..6))
-"#{name}"
+name
 end
