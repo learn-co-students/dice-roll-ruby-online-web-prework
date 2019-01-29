@@ -1,5 +1,11 @@
 require_relative '../dice_roll'
 
+def roll
+  rand (1..6)
+end
+
+  
+
 describe "#roll" do
 
   it "should return an Integer" do
