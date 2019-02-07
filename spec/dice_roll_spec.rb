@@ -1,4 +1,4 @@
-require_relative '../dice_roll'
+require_relative'../dice_roll'
 
 describe "#roll" do
 
