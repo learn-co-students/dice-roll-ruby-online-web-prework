@@ -5,3 +5,6 @@
 def roll
   # code goes here
 end
+rand ("1..6")
+end
+
