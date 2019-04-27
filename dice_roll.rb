@@ -6,6 +6,11 @@
 # upper_limit = 6
 # Random.new.rand(lower_limit..upper_limit) 
 
-def roll(Integer)
-return rand(1..6)
+# def roll(Integer)
+# return rand(1..6)
+# end
+
+def roll
+  # code goes here
+  rand(1..6)
 end
