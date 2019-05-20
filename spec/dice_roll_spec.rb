@@ -1,9 +1,8 @@
 require_relative '../dice_roll'
 
-describe "#roll" do
-
+describe
   it "should return an Integer" do
-    expect(roll).to be_a(Integer)
+    expect(rand(10)).to be_a(8)
   end
 
   it "should return a number greater than 0" do
