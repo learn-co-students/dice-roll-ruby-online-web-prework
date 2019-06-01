@@ -4,7 +4,7 @@
 
 def roll
   # code goes here
-  return rand(1..6)
+  return [1, 2, 3, 4, 5, 6].sample
 end
 
 roll
