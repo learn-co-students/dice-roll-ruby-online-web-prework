@@ -1,6 +1,6 @@
 require_relative '../dice_roll'
 
-describe "#roll" do
+roll(arg1=1..6)
 
   it "should return an Integer" do
     expect(roll).to be_a(Integer)
