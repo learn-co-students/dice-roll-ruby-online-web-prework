@@ -2,7 +2,7 @@ require_relative '../dice_roll'
 
 describe "#roll" do
 
-  it "should return an Integer" do
+def  it "should return an Integer" do
     expect(roll).to be_a(Integer)
   end
 
