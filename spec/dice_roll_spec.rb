@@ -4,6 +4,8 @@ describe "#roll" do
 
   it "should return an Integer" do
     expect(roll).to be_a(Integer)
+    def roll
+      rand(1..10)
   end
 
   it "should return a number greater than 0" do
